@@ -1,0 +1,23 @@
+Setup: 
+  1] go to folder where you want to clone project.
+  2] run => git clone https://github.com/shreyash-daundkar/Blog-Backend
+  3] open any ide and run => npm install
+  4] edit name of file ".env.example" to ".env"
+  5] edit .env file and change your database and other information according to you.
+  6] create database called "blog-backend" in Mysql.
+  7] run => npm start
+
+Test:
+  1] Fork Postman Collection.
+     Link => https://app.getpostman.com/run-collection/29493313-b285d5f8-1528-4e1c-9f3e-728a326f05e5?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D29493313-b285d5f8-1528-4e1c-9f3e-728a326f05e5%26entityType%3Dcollection%26workspaceId%3Dccb32975-4eca-4d6c-b292-9ed618adc09d
+  2] Postman Collection Documentation.
+     Link => https://www.postman.com/payload-architect-87294995/workspace/blog-backend/collection/29493313-b285d5f8-1528-4e1c-9f3e-728a326f05e5?action=share&creator=29493313
+  3] API's.
+     Signup => POST/signup
+     Login => POST/login
+     Add Post => POST/post
+     Remove Post => DELETE/post/:id
+     Edit Post => PUT/post/:id
+     Get All Post => GET/post
+     Get Post by id => GET/post/:id
+     Get All Tags => GET/tag
